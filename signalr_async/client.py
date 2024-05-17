@@ -174,6 +174,7 @@ class SignalRClientBase(ABC, Generic[R, I]):
                             await self._connection.ping()
                         except ConnectionClosed:
                             self.logger.error("Connection keepalive failed to send")
+                            await self._stop_connection()
                     else:
                         await asyncio.sleep(self.keepalive_interval - diff)
             except asyncio.CancelledError:
