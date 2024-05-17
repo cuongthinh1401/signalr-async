@@ -1,30 +1,5 @@
 # SignalR-Async
 
-<p align="center">
-<a href="https://app.travis-ci.com/sam-mosleh/signalr-async" target="_blank">
-    <img src="https://app.travis-ci.com/sam-mosleh/signalr-async.svg?branch=master" alt="Test">
-</a>
-
-<a href="https://codecov.io/gh/sam-mosleh/signalr-async">
-  <img src="https://codecov.io/gh/sam-mosleh/signalr-async/branch/master/graph/badge.svg?token=JYBKXSFAX6"/>
-</a>
-
-<a href="https://pypi.org/project/signalr-async/" target="_blank">
-    <img src="https://img.shields.io/pypi/v/signalr-async" alt="Package version">
-</a>
-<a href="https://pypi.org/project/signalr-async/" target="_blank">
-    <img src="https://img.shields.io/pypi/pyversions/signalr-async.svg" alt="Supported Python versions">
-</a>
-</p>
-
-SignalR-Async is a python client for ASP.NET & ASP.NET Core SignalR, ready for building bidirectional communication.
-
-## Installation
-
-```bash
-pip install signalr-async
-```
-
 ## Example
 
 ### Create it
