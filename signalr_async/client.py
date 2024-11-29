@@ -171,7 +171,7 @@ class SignalRClientBase(ABC, Generic[R, I]):
                     if diff >= self.keepalive_interval:
                         self.logger.debug("Connection keepalive")
 #                        try:
-                         await self._connection.ping()
+                        await self._connection.ping()
 #                        except ConnectionClosed:
 #                            self.logger.error("[CT] Connection keepalive failed to send")
 #                            await self._stop_connection()
